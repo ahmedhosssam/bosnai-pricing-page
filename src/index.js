@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Components/App/App';
 import reportWebVitals from './reportWebVitals';
+
+// Styles
+import './Styles/Header.css';
+import './Styles/Plans.css';
+
+// Components
+import Header from './Components/Header/Header';
+import Plans from './Components/Plans/Plans';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Plans />
   </React.StrictMode>
 );
 

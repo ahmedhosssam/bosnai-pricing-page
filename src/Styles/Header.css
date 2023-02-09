@@ -1,0 +1,78 @@
+/* ----- Header ----- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 120px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* Contains : Logo & 5 Buttons */
+.left-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.header-logo-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-buttons button {
+  color: #4c4d5f;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  color: #00b289;
+}
+
+/* right header */
+.right-header {
+  display: flex;
+  gap: 15px;
+}
+
+.right-header button {
+  font-size: 17px;
+  border-radius: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.login-button {
+  background-color: transparent;
+  border: none;
+  color: #003c2f;
+  border-radius: 15px;
+}
+
+.login-button:hover {
+  background-color: #eff4f2;
+}
+
+.start-free-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: #00b289;
+}
+
+.start-free-button:hover {
+  background-color: #00c698;
+}
