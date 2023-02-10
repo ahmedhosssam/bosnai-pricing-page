@@ -19,6 +19,7 @@ const YearlyPlan = () => {
           'Expense Tracking',
           'Up to 5 Project Collaborators',
         ]}
+        isValue={false}
       />
 
       <PlanTemp
@@ -36,6 +37,7 @@ const YearlyPlan = () => {
           'Zapier Integration',
           'Up to 15 Project Collaborators',
         ]}
+        isValue={true} // Best Value For Money
       />
 
       <PlanTemp
@@ -53,6 +55,7 @@ const YearlyPlan = () => {
           'Unlimited Subcontractors',
           'Unlimited Project Collaborators',
         ]}
+        isValue={false}
       />
     </div>
   );

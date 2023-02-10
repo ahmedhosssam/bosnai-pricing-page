@@ -1,9 +1,9 @@
 .monthly-plan-grid,
 .yearly-plan-grid {
   display: grid;
-  grid-template-columns: repeat(3, 320px);
-  gap: 50px;
-  margin: 50px 0;
+  grid-template-columns: repeat(3, 340px);
+  gap: 30px;
+  margin: 70px 0;
 
   /* animaion for first appear */
   animation-duration: 1.7s;
@@ -28,9 +28,10 @@
   justify-content: center;
   padding: 15px 25px;
   border-radius: 20px;
+  position: relative;
 
   box-shadow: 10px 10px 50px #b1b1b1;
-  max-width: 320px;
+  max-width: 340px;
 }
 
 .price {
@@ -81,4 +82,19 @@
 }
 .one-feature img {
   width: 30px;
+}
+
+.best-value {
+  border: 10px #ee8146 solid;
+}
+
+.best-value-title {
+  position: absolute;
+  top: -32px;
+  background-color: #ee8146;
+  color: rgb(243, 243, 243);
+  padding: 9px 20px 0 20px;
+  font-size: 13px;
+  margin: 0;
+  border-radius: 6px;
 }

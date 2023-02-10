@@ -1,8 +1,9 @@
 import greenCheckImg from '../../Assets/green-check.svg';
 
-const PlanTemp = ({ type, price, description, features }) => {
+const PlanTemp = ({ type, price, description, features, isValue }) => {
   return (
-    <div className="plan-temp">
+    <div className={isValue ? 'plan-temp best-value' : 'plan-temp'}>
+      {isValue ? <p className="best-value-title">Best Value For Money</p> : ''}
       <h2 className="type">{type}</h2>
       <div className="price">
         <span className="dollar-sign">$</span>
