@@ -7,16 +7,19 @@ import reportWebVitals from './reportWebVitals';
 import './Styles/Header.css';
 import './Styles/Plans.css';
 import './Styles/PlanGrid.css';
+import './Styles/AddOnes.css';
 
 // Components
 import Header from './Components/Header/Header';
 import Plans from './Components/Plans/Plans';
+import AddOnes from './Components/AddOnes/AddOnes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Plans />
+    <AddOnes />
   </React.StrictMode>
 );
 

@@ -76,6 +76,7 @@
 
 .description {
   text-align: center;
+  color: #65816d;
 }
 
 .one-feature {
@@ -99,4 +100,5 @@
   font-size: 13px;
   margin: 0;
   border-radius: 6px;
+  font-weight: 600;
 }
