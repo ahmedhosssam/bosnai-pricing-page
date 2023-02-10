@@ -3,7 +3,22 @@
   display: grid;
   grid-template-columns: repeat(3, 320px);
   gap: 50px;
-  margin-top: 50px;
+  margin: 50px 0;
+
+  /* animaion for first appear */
+  animation-duration: 1.7s;
+  animation-name: change-opacity;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes change-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .plan-temp {
@@ -11,7 +26,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 25px;
+  padding: 15px 25px;
+  border-radius: 20px;
 
   box-shadow: 10px 10px 50px #b1b1b1;
   max-width: 320px;
@@ -36,4 +52,33 @@
   font-size: 20px;
   font-weight: bold;
   opacity: 0.4;
+}
+
+.start-for-free-btn {
+  margin-top: 15px;
+  font-size: 17px;
+  padding: 15px 50px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s;
+  border: none;
+  background-color: #00b289;
+  color: white;
+}
+
+.start-for-free-btn:hover {
+  background-color: rgb(0, 203, 156);
+}
+
+.description {
+  text-align: center;
+}
+
+.one-feature {
+  display: flex;
+  gap: 10px;
+}
+.one-feature img {
+  width: 30px;
 }

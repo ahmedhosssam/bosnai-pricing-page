@@ -44,7 +44,7 @@ const MonthlyPlan = () => {
         features={[
           'Everything in Professional, plus:',
           'Subcontractor Management',
-          'Hiring Agreement Templates (1099 contractors)',
+          'Hiring Agreement Templates',
           'Subcontractor Onboarding',
           'Talent Pool',
           '3 Team Seats',
