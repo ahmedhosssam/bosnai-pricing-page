@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // Styles
 import './Styles/Header.css';
 import './Styles/Plans.css';
+import './Styles/PlanGrid.css';
 
 // Components
 import Header from './Components/Header/Header';

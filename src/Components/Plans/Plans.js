@@ -3,7 +3,7 @@ import MonthlyPlan from './MonthlyPlan';
 import YearlyPlan from './YearlyPlan';
 
 const Plans = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(2);
 
   return (
     <div className="plans">
@@ -31,7 +31,9 @@ const Plans = () => {
         </ButtonPlan>
       </div>
 
-      <div>{activeIndex === 2 ? <YearlyPlan /> : <MonthlyPlan />}</div>
+      <div className="plans-grid">
+        {activeIndex === 2 ? <YearlyPlan /> : <MonthlyPlan />}
+      </div>
     </div>
   );
 };

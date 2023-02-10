@@ -2,7 +2,7 @@ import PlanTemp from './PlanTemp';
 
 const YearlyPlan = () => {
   return (
-    <div className="monthly-plan-grid">
+    <div className="yearly-plan-grid">
       <PlanTemp
         type="Starter"
         price={17}
