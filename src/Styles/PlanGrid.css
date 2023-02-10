@@ -85,15 +85,15 @@
 }
 
 .best-value {
-  border: 10px #ee8146 solid;
+  border: 6px #ee8146 solid;
 }
 
 .best-value-title {
   position: absolute;
-  top: -32px;
+  top: -28px;
   background-color: #ee8146;
   color: rgb(243, 243, 243);
-  padding: 9px 20px 0 20px;
+  padding: 5px 20px 5px 20px;
   font-size: 13px;
   margin: 0;
   border-radius: 6px;
