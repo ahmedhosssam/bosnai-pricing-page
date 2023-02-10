@@ -8,11 +8,13 @@ import './Styles/Header.css';
 import './Styles/Plans.css';
 import './Styles/PlanGrid.css';
 import './Styles/AddOnes.css';
+import './Styles/FAQ.css';
 
 // Components
 import Header from './Components/Header/Header';
 import Plans from './Components/Plans/Plans';
 import AddOnes from './Components/AddOnes/AddOnes';
+import Faq from './Components/FAQ/FAQ.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +22,7 @@ root.render(
     <Header />
     <Plans />
     <AddOnes />
+    <Faq />
   </React.StrictMode>
 );
 

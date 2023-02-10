@@ -1,0 +1,23 @@
+.faq-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* .faq-component img {
+  width: 500px;
+  position: absolute;
+  right: 0px;
+} */
+
+.faq {
+  align-self: flex-start;
+}
+
+.faq-item {
+}
+
+.active {
+  transform: rotate(180deg);
+}
