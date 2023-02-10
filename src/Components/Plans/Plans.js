@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import MonthlyPlan from './MonthlyPlan';
+import YearlyPlan from './YearlyPlan';
 
 const Plans = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -28,6 +30,8 @@ const Plans = () => {
           Yearly <span className="offer-in-button">2 months for free</span>
         </ButtonPlan>
       </div>
+
+      <div>{activeIndex === 2 ? <YearlyPlan /> : <MonthlyPlan />}</div>
     </div>
   );
 };

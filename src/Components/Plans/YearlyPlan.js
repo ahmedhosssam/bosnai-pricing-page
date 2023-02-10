@@ -1,12 +1,13 @@
 import PlanTemp from './PlanTemp';
 
-const MonthlyPlan = () => {
+const YearlyPlan = () => {
   return (
     <div className="monthly-plan-grid">
       <PlanTemp
         type="Starter"
-        price={24}
-        description="Ideal for freelancers and contractors just starting out."
+        price={17}
+        description="Ideal for freelancers and contractors just starting out.
+        Billed annualy."
         features={[
           'All Templates',
           'Unlimited Clients & Projects',
@@ -22,7 +23,7 @@ const MonthlyPlan = () => {
 
       <PlanTemp
         type="Professional"
-        price={32}
+        price={39}
         description="Everything a growing independent business needs to thrive."
         features={[
           'Everything in Starter, plus:',
@@ -39,7 +40,7 @@ const MonthlyPlan = () => {
 
       <PlanTemp
         type="Business"
-        price={52}
+        price={79}
         description="The perfect package for small businesses and agencies."
         features={[
           'Everything in Professional, plus:',
@@ -57,4 +58,4 @@ const MonthlyPlan = () => {
   );
 };
 
-export default MonthlyPlan;
+export default YearlyPlan;
