@@ -1,0 +1,49 @@
+.add-ones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 70px 20px;
+  color: #003c2f;
+}
+
+.add-ones-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.addones-items-gird {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 350px));
+  gap: 25px;
+}
+
+.add-one-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(218, 218, 218) solid;
+  border-radius: 15px;
+  padding: 50px 40px;
+}
+
+.add-one-item label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.add-one-item p {
+  color: #65816d;
+  margin-bottom: 100px;
+}
+
+.add-one-item h3 {
+  align-self: flex-end;
+  font-size: 32px;
+}
+
+.price-div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 4px;
+}

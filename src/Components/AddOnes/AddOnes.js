@@ -1,7 +1,7 @@
 const AddOnes = () => {
   return (
-    <div>
-      <h2>
+    <div className="add-ones">
+      <h2 className="add-ones-title">
         Take it to the
         <br />
         next level with add-ones
@@ -16,7 +16,7 @@ const AddOnes = () => {
           label="Partners"
           description="Invite other users for full account access and company management."
           price={
-            <div>
+            <div className="price-div">
               $9<span className="per-month">/month</span>
             </div>
           }
@@ -25,7 +25,7 @@ const AddOnes = () => {
           label="Tax Assistant"
           description="Track expenses, identify write-offs, and estimate quarterly taxes easily."
           price={
-            <div>
+            <div className="price-div">
               $15<span className="per-month">/month</span>
             </div>
           }
@@ -39,7 +39,7 @@ export default AddOnes;
 
 const AddOneItem = ({ label, description, price }) => {
   return (
-    <div>
+    <div className="add-one-item">
       <label>{label}</label>
       <p>{description}</p>
       <h3>{price}</h3>
