@@ -1,6 +1,6 @@
 const PlanTemp = ({ type, price, description, features }) => {
   return (
-    <div>
+    <div className="plan-temp">
       <div>
         <h2>{type}</h2>
         <div>
@@ -18,6 +18,7 @@ const PlanTemp = ({ type, price, description, features }) => {
           );
         })}
       </div>
+      <button>Start for free</button>
     </div>
   );
 };
