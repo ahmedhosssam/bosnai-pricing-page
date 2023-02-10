@@ -1,12 +1,13 @@
 .monthly-plan-grid,
 .yearly-plan-grid {
   display: grid;
-  grid-template-columns: repeat(3, 340px);
+  grid-template-columns: repeat(3, minmax(200px, 340px));
   gap: 30px;
-  margin: 70px 0;
+  margin: 70px 20px;
+  flex-wrap: wrap;
 
   /* animaion for first appear */
-  animation-duration: 1.7s;
+  animation-duration: 0.7s;
   animation-name: change-opacity;
   animation-iteration-count: 1;
   animation-direction: alternate;
@@ -32,6 +33,7 @@
 
   box-shadow: 10px 10px 50px #cfcfcf;
   max-width: 340px;
+  flex-shrink: 1;
 }
 
 .price {
