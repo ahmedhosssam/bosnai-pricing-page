@@ -1,6 +1,6 @@
 # Bosnai Pricing Landing Page
 
-Note : The is an unofficial landing page ( Clone ) from a website called [https://www.hellobonsai.com/](Bosnai)
+Note : This is an unofficial landing page ( Clone ) from a website called [https://www.hellobonsai.com/](Bosnai)
 
 ## Technologies
 
