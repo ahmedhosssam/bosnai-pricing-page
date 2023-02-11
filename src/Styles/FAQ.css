@@ -1,8 +1,8 @@
 .faq-component {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  position: relative;
+  margin: 40px 210px;
 }
 
 /* .faq-component img {
@@ -15,9 +15,22 @@
   align-self: flex-start;
 }
 
-.faq-item {
+.faq h1 {
+  margin-bottom: 40px;
 }
 
-.active {
-  transform: rotate(180deg);
+.faq-item {
+  max-width: 500px;
+}
+
+.faq-item-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+}
+
+.faq-item-button img {
+  align-self: flex-end;
 }

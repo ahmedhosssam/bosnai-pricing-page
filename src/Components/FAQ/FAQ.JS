@@ -39,14 +39,18 @@ export default Faq;
 const FaqItem = ({ question, answer }) => {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
-    return isActive ? setIsActive(false) : setIsActive(true);
+    setIsActive(!isActive);
   };
+
   return (
     <div className="faq-item">
-      <button onClick={handleClick}>
+      <button className="faq-item-button" onClick={handleClick}>
         <label>{question}</label>
         <img
-          className={isActive ? 'active' : ''}
+          style={{
+            transform: `rotate(${isActive ? 180 : 0}deg)`,
+            transition: 'transform 0.3s ease',
+          }}
           src={toggleArrow}
           alt="toggle"
         />
