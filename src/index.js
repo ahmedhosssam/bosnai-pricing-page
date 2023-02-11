@@ -11,6 +11,7 @@ import './Styles/AddOnes.css';
 import './Styles/FAQ.css';
 import './Styles/Feedback.css';
 import './Styles/GetStarted.css';
+import './Styles/Footer.css';
 
 // Components
 import Header from './Components/Header/Header';
@@ -19,6 +20,7 @@ import AddOnes from './Components/AddOnes/AddOnes';
 import Faq from './Components/FAQ/FAQ.js';
 import Feedback from './Components/Feedback/Feedback';
 import GetStarted from './Components/GetStarted/GetStarted';
+import Footer from './Components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +31,7 @@ root.render(
     <Faq />
     <Feedback />
     <GetStarted />
+    <Footer />
   </React.StrictMode>
 );
 
