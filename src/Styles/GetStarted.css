@@ -1,0 +1,33 @@
+.getStarted {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.getStarted img {
+  max-width: 500px;
+}
+
+.two-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.link-contact-us {
+  color: #22ad01;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.link-contact-us:hover {
+  text-decoration: underline;
+}
+
+.answer-get-started {
+  max-width: 600px;
+  color: grey;
+}
