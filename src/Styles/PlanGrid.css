@@ -103,3 +103,13 @@
   border-radius: 6px;
   font-weight: 600;
 }
+
+/* ---- Mobile Styling ---- */
+
+@media (max-width: 750px) {
+  .monthly-plan-grid,
+  .yearly-plan-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
