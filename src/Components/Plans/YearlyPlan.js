@@ -24,7 +24,7 @@ const YearlyPlan = () => {
 
       <PlanTemp
         type="Professional"
-        price={39}
+        price={32}
         description="Everything a growing independent business needs to thrive."
         features={[
           'Everything in Starter, plus:',
@@ -42,7 +42,7 @@ const YearlyPlan = () => {
 
       <PlanTemp
         type="Business"
-        price={79}
+        price={51}
         description="The perfect package for small businesses and agencies."
         features={[
           'Everything in Professional, plus:',

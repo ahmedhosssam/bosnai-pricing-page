@@ -22,7 +22,7 @@ const MonthlyPlan = () => {
 
       <PlanTemp
         type="Professional"
-        price={32}
+        price={39}
         description="Everything a growing independent business needs to thrive."
         features={[
           'Everything in Starter, plus:',
@@ -39,7 +39,7 @@ const MonthlyPlan = () => {
 
       <PlanTemp
         type="Business"
-        price={52}
+        price={79}
         description="The perfect package for small businesses and agencies."
         features={[
           'Everything in Professional, plus:',
