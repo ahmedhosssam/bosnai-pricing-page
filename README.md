@@ -6,10 +6,8 @@ Note : This is an unofficial landing page ( Clone ) from a website called [https
 
 In this project I used :
 
-### HTML
-
-### CSS
-
-### JAVASCRIPT
-
 ### `REACT`
+
+### `JAVASCRIPT`
+
+### `CSS`
