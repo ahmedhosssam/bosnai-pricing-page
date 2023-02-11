@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import headerLogo from '../../Assets/header-logo.svg';
 import nav from '../../Assets/nav.svg';
+import toggleArrow from '../../Assets/toggle-arrow.svg';
 
 const Header = () => {
   const [isNavActive, setIsNavActive] = useState(false);
@@ -44,8 +45,16 @@ const NavBar = ({ isNavActive }) => {
       className="nav-bar"
       style={{ display: `${isNavActive ? 'flex' : 'none'}` }}
     >
-      <button className="sliding-button">Products</button>
-      <button className="sliding-button">Templates</button>
+      <div className="sliding-button">
+        <button>Products</button>
+        <img src={toggleArrow} alt="toggle" />
+      </div>
+
+      <div className="sliding-button">
+        <button>Templates</button>
+        <img src={toggleArrow} alt="toggle" />
+      </div>
+
       <button className="nd-nav-button">Pricing</button>
       <button className="nd-nav-button">Reviews</button>
       <button className="login-button-nav">Login</button>
