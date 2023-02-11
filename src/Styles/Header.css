@@ -99,17 +99,38 @@ header {
   flex-wrap: wrap;
 }
 
-.sliding-button button {
+.sliding-button button,
+.nd-nav-button {
   background-color: transparent;
   border: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: 1px solid #e3e3e3;
-  padding: 20px;
+  padding: 20px 20vh;
   width: 20vh;
   font-size: 20px;
   cursor: pointer;
   color: #005944;
+}
+
+.login-button-nav {
+  background-color: transparent;
+  border: 2px solid #003c2f;
+  color: #003c2f;
+  border-radius: 15px;
+  padding: 15px 20vh;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.start-free-button-nav {
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: #00b289;
+  border-radius: 15px;
+  padding: 15px 20vh;
+  font-weight: 700;
 }
 
 @media (max-width: 850px) {
