@@ -38,12 +38,17 @@ export default Faq;
 
 const FaqItem = ({ question, answer }) => {
   const [isActive, setIsActive] = useState(false);
+
   const handleClick = () => {
     setIsActive(!isActive);
   };
 
+  // faq-item-active
   return (
-    <div className="faq-item" onClick={handleClick}>
+    <div
+      className={isActive ? 'faq-item faq-item-active ' : 'faq-item'}
+      onClick={handleClick}
+    >
       <button className="faq-item-button">
         <label className="faq-question">{question}</label>
         <img
@@ -55,7 +60,13 @@ const FaqItem = ({ question, answer }) => {
           alt="toggle"
         />
       </button>
-      <div className="faq-answer">{isActive ? answer : ''}</div>
+      <div
+        className={`toggle-item ${
+          isActive ? 'faq-answer expanded' : 'faq-answer hidden'
+        }`}
+      >
+        {isActive ? answer : ''}
+      </div>
     </div>
   );
 };

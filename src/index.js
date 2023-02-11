@@ -15,6 +15,7 @@ import Header from './Components/Header/Header';
 import Plans from './Components/Plans/Plans';
 import AddOnes from './Components/AddOnes/AddOnes';
 import Faq from './Components/FAQ/FAQ.js';
+import Feedback from './Components/Feedback/Feedback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
     <Plans />
     <AddOnes />
     <Faq />
+    <Feedback />
   </React.StrictMode>
 );
 
