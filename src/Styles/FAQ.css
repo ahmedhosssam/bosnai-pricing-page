@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 40px 210px;
+  margin: 50px 210px;
 }
 
 /* .faq-component img {
@@ -16,15 +16,13 @@
 }
 
 .faq h1 {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   color: #003c2f;
   font-size: 42px;
 }
 
 .faq-item {
   max-width: 500px;
-  margin: 40px 0;
-  padding-bottom: 20px;
   border-bottom: 1px solid rgb(212, 212, 212);
 }
 
@@ -34,7 +32,9 @@
   display: flex;
   justify-content: space-between;
   min-width: 500px;
-  padding: 0;
+  padding: 40px 0;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .faq-item-button img {
@@ -45,6 +45,7 @@
   color: #003c2f;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .faq-answer {
