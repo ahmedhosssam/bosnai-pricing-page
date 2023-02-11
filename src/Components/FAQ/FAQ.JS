@@ -1,4 +1,4 @@
-import plantImg from '../../Assets/plant.png';
+// import plantImg from '../../Assets/plant.png';
 import { useState } from 'react';
 import toggleArrow from '../../Assets/toggle-arrow.svg';
 
@@ -29,9 +29,9 @@ const Faq = () => {
           />
         </div>
       </div>
-      <div>
+      {/* <div>
         <img src={plantImg} alt="plant" className="plant-img" />
-      </div>
+      </div> */}
     </div>
   );
 };
