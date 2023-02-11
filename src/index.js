@@ -10,6 +10,7 @@ import './Styles/PlanGrid.css';
 import './Styles/AddOnes.css';
 import './Styles/FAQ.css';
 import './Styles/Feedback.css';
+import './Styles/GetStarted.css';
 
 // Components
 import Header from './Components/Header/Header';
@@ -17,6 +18,7 @@ import Plans from './Components/Plans/Plans';
 import AddOnes from './Components/AddOnes/AddOnes';
 import Faq from './Components/FAQ/FAQ.js';
 import Feedback from './Components/Feedback/Feedback';
+import GetStarted from './Components/GetStarted/GetStarted';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +28,7 @@ root.render(
     <AddOnes />
     <Faq />
     <Feedback />
+    <GetStarted />
   </React.StrictMode>
 );
 
