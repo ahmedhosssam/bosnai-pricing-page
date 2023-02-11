@@ -79,6 +79,13 @@ header {
 
 /* ---- Mobile Design ---- */
 
+.nav-bar {
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  margin: 50px;
+}
+
 .nav-button {
   display: none;
   background-color: transparent;
@@ -89,6 +96,8 @@ header {
 @media (max-width: 850px) {
   header {
     margin: 25px 20px;
+    flex-direction: column;
+    padding-bottom: 10px;
   }
   .header-buttons,
   .right-header {

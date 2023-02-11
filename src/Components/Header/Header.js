@@ -17,19 +17,20 @@ const Header = () => {
           <button>Pricing</button>
           <button>Reviews</button>
         </div>
+        <button
+          onClick={() => {
+            setIsNavActive(!isNavActive);
+          }}
+          className="nav-button"
+        >
+          <img src={nav} alt="" />
+        </button>
       </div>
       <div className="right-header">
         <button className="login-button">Log in</button>
         <button className="start-free-button">Start Free</button>
       </div>
-      <button
-        onClick={() => {
-          setIsNavActive(!isNavActive);
-        }}
-        className="nav-button"
-      >
-        <img src={nav} alt="" />
-      </button>
+
       <NavBar isNavActive={isNavActive} />
     </header>
   );
@@ -41,7 +42,7 @@ const NavBar = ({ isNavActive }) => {
   return (
     <div
       className="nav-bar"
-      style={{ display: `${isNavActive ? 'block' : 'none'}` }}
+      style={{ display: `${isNavActive ? 'flex' : 'none'}` }}
     >
       <button className="sliding-button">Products</button>
       <button className="sliding-button">Templates</button>
