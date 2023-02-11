@@ -15,7 +15,7 @@ const Faq = () => {
 
           <FaqItem
             question="Can I change my plan anytime?"
-            answer='Yes, you can from within your account. If you have already subscribed to a plan, or want to downgrade or upgrade your current one, you can do this by going to your "Settings" and /"Subscription".'
+            answer='Yes, you can from within your account. If you have already subscribed to a plan, or want to downgrade or upgrade your current one, you can do this by going to your "Settings" and "Subscription".'
           />
 
           <FaqItem
@@ -43,9 +43,9 @@ const FaqItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="faq-item">
-      <button className="faq-item-button" onClick={handleClick}>
-        <label>{question}</label>
+    <div className="faq-item" onClick={handleClick}>
+      <button className="faq-item-button">
+        <label className="faq-question">{question}</label>
         <img
           style={{
             transform: `rotate(${isActive ? 180 : 0}deg)`,
@@ -55,7 +55,7 @@ const FaqItem = ({ question, answer }) => {
           alt="toggle"
         />
       </button>
-      <div>{isActive ? answer : ''}</div>
+      <div className="faq-answer">{isActive ? answer : ''}</div>
     </div>
   );
 };
