@@ -9,6 +9,7 @@ import './Styles/Plans.css';
 import './Styles/PlanGrid.css';
 import './Styles/AddOnes.css';
 import './Styles/FAQ.css';
+import './Styles/Feedback.css';
 
 // Components
 import Header from './Components/Header/Header';

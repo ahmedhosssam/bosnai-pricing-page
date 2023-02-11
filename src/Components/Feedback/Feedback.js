@@ -28,6 +28,7 @@ const FeedBackTemp = ({ message }) => {
   return <div className="feedback-item">{message}</div>;
 };
 
+// I hate copy-paste ?
 const FeedBackData = [
   '“My best friend in scaling my business”',
   '“Like putting my finances on auto-pilot”',
