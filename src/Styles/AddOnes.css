@@ -47,3 +47,15 @@
   justify-content: center;
   gap: 4px;
 }
+
+/* ---- Mobile Styling ---- */
+
+@media (max-width: 850px) {
+  .add-ones-title {
+    font-size: 30px;
+  }
+
+  .addones-items-gird {
+    grid-template-columns: 1fr;
+  }
+}
