@@ -2,14 +2,15 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 50px 210px;
+  width: 80vh;
+  margin: 70px auto;
+  gap: 50px;
 }
 
-/* .faq-component img {
+.plant-img {
   width: 500px;
-  position: absolute;
   right: 0px;
-} */
+}
 
 .faq {
   align-self: flex-start;

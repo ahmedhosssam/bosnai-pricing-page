@@ -1,0 +1,27 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px auto;
+  margin-top: 90px;
+  gap: 20px;
+  justify-content: center;
+  width: 80vw;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer-item {
+  background-color: transparent;
+  color: #65816d;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.footer-item:hover {
+  color: #00b289;
+}
