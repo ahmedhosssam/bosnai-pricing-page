@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc735551.css",
-    "main.js": "/static/js/main.a309844d.js",
-    "static/js/787.21485c33.chunk.js": "/static/js/787.21485c33.chunk.js",
-    "static/media/GetStarted.png": "/static/media/GetStarted.a2045ef707d28fdb6cea.png",
-    "static/media/top-performer.svg": "/static/media/top-performer.9af27ebfca48e3bc1e1c7b6f4aa99afc.svg",
-    "static/media/excellent.svg": "/static/media/excellent.14a15bbcf5fc5c057ee0982b85727596.svg",
-    "static/media/header-logo.svg": "/static/media/header-logo.90086e1e425e6943c2e2769eae6cb0da.svg",
-    "index.html": "/index.html",
-    "static/media/nav.svg": "/static/media/nav.1bad26598c3f28a6719ab809ec8f867c.svg",
-    "static/media/green-check.svg": "/static/media/green-check.d373da39f1f2bc1a2204cc6c8c6e29d0.svg",
-    "static/media/toggle-arrow.svg": "/static/media/toggle-arrow.c793f62f567bc3ae206852e41b670c55.svg",
-    "main.cc735551.css.map": "/static/css/main.cc735551.css.map",
-    "main.a309844d.js.map": "/static/js/main.a309844d.js.map",
-    "787.21485c33.chunk.js.map": "/static/js/787.21485c33.chunk.js.map"
+    "main.css": "/bosnai-pricing-page/static/css/main.cc735551.css",
+    "main.js": "/bosnai-pricing-page/static/js/main.1df2a69f.js",
+    "static/js/787.21485c33.chunk.js": "/bosnai-pricing-page/static/js/787.21485c33.chunk.js",
+    "static/media/GetStarted.png": "/bosnai-pricing-page/static/media/GetStarted.a2045ef707d28fdb6cea.png",
+    "static/media/top-performer.svg": "/bosnai-pricing-page/static/media/top-performer.9af27ebfca48e3bc1e1c7b6f4aa99afc.svg",
+    "static/media/excellent.svg": "/bosnai-pricing-page/static/media/excellent.14a15bbcf5fc5c057ee0982b85727596.svg",
+    "static/media/header-logo.svg": "/bosnai-pricing-page/static/media/header-logo.90086e1e425e6943c2e2769eae6cb0da.svg",
+    "index.html": "/bosnai-pricing-page/index.html",
+    "static/media/nav.svg": "/bosnai-pricing-page/static/media/nav.1bad26598c3f28a6719ab809ec8f867c.svg",
+    "static/media/green-check.svg": "/bosnai-pricing-page/static/media/green-check.d373da39f1f2bc1a2204cc6c8c6e29d0.svg",
+    "static/media/toggle-arrow.svg": "/bosnai-pricing-page/static/media/toggle-arrow.c793f62f567bc3ae206852e41b670c55.svg",
+    "main.cc735551.css.map": "/bosnai-pricing-page/static/css/main.cc735551.css.map",
+    "main.1df2a69f.js.map": "/bosnai-pricing-page/static/js/main.1df2a69f.js.map",
+    "787.21485c33.chunk.js.map": "/bosnai-pricing-page/static/js/787.21485c33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc735551.css",
-    "static/js/main.a309844d.js"
+    "static/js/main.1df2a69f.js"
   ]
 }
