@@ -33,3 +33,13 @@
   font-weight: 700;
   font-size: 20px;
 }
+
+@media (max-width: 850px) {
+  .feedback-imgs {
+    flex-direction: column;
+  }
+
+  .feedback-items-gallery {
+    display: none;
+  }
+}

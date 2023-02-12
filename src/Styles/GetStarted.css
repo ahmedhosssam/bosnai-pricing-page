@@ -31,3 +31,16 @@
   max-width: 600px;
   color: grey;
 }
+
+@media (max-width: 850px) {
+  .getStarted {
+    flex-direction: column;
+  }
+
+  .two-questions {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+  }
+}
